@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "dhanaadf"
 		},
+		"ls_blob_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'ls_blob'"
+		},
 		"ls_sink_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'ls_sink'"
@@ -45,6 +49,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"ls_blob_connectionString": {
+						"value": "[parameters('ls_blob_connectionString')]"
 					},
 					"ls_sink_connectionString": {
 						"value": "[parameters('ls_sink_connectionString')]"

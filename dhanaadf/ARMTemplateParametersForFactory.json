@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "dhanaadf"
 		},
+		"ls_blob_connectionString": {
+			"value": ""
+		},
 		"ls_sink_connectionString": {
 			"value": ""
 		},
