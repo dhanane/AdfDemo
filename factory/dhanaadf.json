@@ -1,0 +1,9 @@
+{
+	"name": "dhanaadf",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3ce63ffa-c7c6-45cd-9619-b30ebbc5f6aa",
+		"tenantId": "e5f06821-93d8-496b-a5f4-d8eb8ba5e473"
+	}
+}
