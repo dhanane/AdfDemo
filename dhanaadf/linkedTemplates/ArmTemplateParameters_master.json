@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dhanaadf"
+		},
+		"ls_sink_connectionString": {
+			"value": ""
+		},
+		"ls_src_connectionString": {
+			"value": ""
+		},
+		"ls_akv_properties_typeProperties_baseUrl": {
+			"value": "https://dakv.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
